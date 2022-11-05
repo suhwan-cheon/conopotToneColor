@@ -136,7 +136,7 @@ export default {
     },
 
     retry: function() {
-      this.recordStatus = 1;
+      this.init();
     },
 
     drawGraph: function() {
